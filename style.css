@@ -1,0 +1,314 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+/* Styles de l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*accueil */
+#accueil {
+    text-align: center;
+    padding: 20px;
+}
+
+#accueil img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#accueil h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#accueil h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#accueil p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* évènements */
+#evenements {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#evenements h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.evenement {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.evenement img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.evenement h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.evenement p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.evenement a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* "Ajouter un évènement" */
+#ajouter-evenement {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+#ajouter-evenement img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#ajouter-evenement h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ajouter-evenement {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Partenaires */
+#partenaires {
+    text-align: center;
+    padding: 20px;
+}
+
+#partenaires h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#partenaires a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+img.logo-partenaire {
+    max-width: 80px; 
+    height: auto; 
+    margin: 10px;
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.evenement {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.evenement img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin: 0 auto; 
+}
+
+.evenement h3 {
+    font-size: 24px;
+}
+
+.evenement table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.evenement table td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.evenement a {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.evenement a:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+#ajouter {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+#nous-contacter {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+
+iframe {
+    max-width: 100%;
+    border: none;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #555;
+}
